@@ -12,9 +12,10 @@ namespace CommandsService.Controllers
 
         }
 
-        [HttpGet]
+        [HttpPost]
         public ActionResult TestInboundConnection()
         {
+            Console.WriteLine("Working");
             return Ok("Inbound Test of Platforms Controller is good");
         }
     }
